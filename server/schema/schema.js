@@ -3,7 +3,8 @@ const graphql = require('graphql');
 const { 
     GraphQLObjectType, 
     GraphQLString, 
-    GraphQLSchema
+    GraphQLSchema,
+    GraphQLList
 } = graphql;
 
 let users = [
@@ -618,7 +619,13 @@ const UserType = new GraphQLObjectType({
         firstName: { type: GraphQLString },
         lastName: { type: GraphQLString },
         id: { type: GraphQLString },
-        email: { type: GraphQLString }
+        email: { type: GraphQLString },
+        posts: {
+            type: new GraphQLList(PostType),
+            resolve(parent, args){
+                return posts.filter(post => post.author.email == parent.email)
+            }
+        }
     })
 });
 
@@ -630,7 +637,7 @@ const PostType = new GraphQLObjectType({
         author: {
             type: UserType,
             resolve(parent, args){
-                return users.find(user => user.email == parent.author.email);
+                return users.find(user => parent.author.email == user.email);
             }
         }
     })
