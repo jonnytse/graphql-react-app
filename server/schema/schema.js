@@ -159,6 +159,459 @@ let users = [
     }
 ];
 
+let posts = [
+    {
+        "id": "ckfoeh8wn0h0jhl10b6ezfvlc",
+        "title": "Moldova optical action-items",
+        "author": {
+          "firstName": "Wendy",
+          "lastName": "Legros",
+          "email": "Raphaelle.Medhurst55@gmail.com"
+        }
+      },
+      {
+        "id": "ckfoeh8wn0h0khl10lsox7hjj",
+        "title": "transmitting utilisation",
+        "author": {
+          "firstName": "Colleen",
+          "lastName": "Kulas",
+          "email": "Helene_Sauer89@yahoo.com"
+        }
+      },
+      {
+        "id": "ckfoeh8wn0h0lhl10fprivznv",
+        "title": "Director",
+        "author": {
+          "firstName": "Wendy",
+          "lastName": "Legros",
+          "email": "Raphaelle.Medhurst55@gmail.com"
+        }
+      },
+      {
+        "id": "ckfoeh8wn0h0mhl109w2ntbqo",
+        "title": "Loop",
+        "author": {
+          "firstName": "Colleen",
+          "lastName": "Kulas",
+          "email": "Helene_Sauer89@yahoo.com"
+        }
+      },
+      {
+        "id": "ckfoeh8wo0h0nhl10lcdj2qm9",
+        "title": "Texas override",
+        "author": {
+          "firstName": "Colleen",
+          "lastName": "Kulas",
+          "email": "Helene_Sauer89@yahoo.com"
+        }
+      },
+      {
+        "id": "ckfoeh8wo0h0ohl104mx4akyf",
+        "title": "Portugal benchmark distributed",
+        "author": {
+          "firstName": "Colleen",
+          "lastName": "Kulas",
+          "email": "Helene_Sauer89@yahoo.com"
+        }
+      },
+      {
+        "id": "ckfoeh8wo0h0phl10pcf7rxca",
+        "title": "Secured copy Michigan",
+        "author": {
+          "firstName": "Wendy",
+          "lastName": "Legros",
+          "email": "Raphaelle.Medhurst55@gmail.com"
+        }
+      },
+      {
+        "id": "ckfoeh8wo0h0qhl10bqc98ug4",
+        "title": "olive Chips",
+        "author": {
+          "firstName": "Wendy",
+          "lastName": "Legros",
+          "email": "Raphaelle.Medhurst55@gmail.com"
+        }
+      },
+      {
+        "id": "ckfoeh8wo0h0rhl10huw21i1x",
+        "title": "Venezuela",
+        "author": {
+          "firstName": "Jarod",
+          "lastName": "Pouros",
+          "email": "Yessenia.Deckow8@hotmail.com"
+        }
+      },
+      {
+        "id": "ckfoeh8wo0h0shl10uigcyd7g",
+        "title": "Director",
+        "author": {
+          "firstName": "Wendy",
+          "lastName": "Legros",
+          "email": "Raphaelle.Medhurst55@gmail.com"
+        }
+      },
+      {
+        "id": "ckfoeh8wo0h0thl10tjmiizyo",
+        "title": "Tactics Facilitator Avon",
+        "author": {
+          "firstName": "Colleen",
+          "lastName": "Kulas",
+          "email": "Helene_Sauer89@yahoo.com"
+        }
+      },
+      {
+        "id": "ckfoeh8wo0h0uhl106vb15zy3",
+        "title": "grey Central wireless",
+        "author": {
+          "firstName": "Jarod",
+          "lastName": "Pouros",
+          "email": "Yessenia.Deckow8@hotmail.com"
+        }
+      },
+      {
+        "id": "ckfoeh8wp0h0vhl10scmmdztp",
+        "title": "withdrawal matrices Customer",
+        "author": {
+          "firstName": "Wendy",
+          "lastName": "Legros",
+          "email": "Raphaelle.Medhurst55@gmail.com"
+        }
+      },
+      {
+        "id": "ckfoeh8wp0h0whl10u0t1ntlb",
+        "title": "Ergonomic programming Horizontal",
+        "author": {
+          "firstName": "Jarod",
+          "lastName": "Pouros",
+          "email": "Yessenia.Deckow8@hotmail.com"
+        }
+      },
+      {
+        "id": "ckfoeh8wp0h0xhl107ze3e32j",
+        "title": "Metal",
+        "author": {
+          "firstName": "Wendy",
+          "lastName": "Legros",
+          "email": "Raphaelle.Medhurst55@gmail.com"
+        }
+      },
+      {
+        "id": "ckfoeh8wp0h0yhl106f7469pn",
+        "title": "redundant Croatian Kuna",
+        "author": {
+          "firstName": "Wendy",
+          "lastName": "Legros",
+          "email": "Raphaelle.Medhurst55@gmail.com"
+        }
+      },
+      {
+        "id": "ckfoeh8wp0h0zhl10tt77twg1",
+        "title": "Jewelery",
+        "author": {
+          "firstName": "Wendy",
+          "lastName": "Legros",
+          "email": "Raphaelle.Medhurst55@gmail.com"
+        }
+      },
+      {
+        "id": "ckfoeh8wp0h10hl10g9ete3jz",
+        "title": "multi-tasking navigating",
+        "author": {
+          "firstName": "Colleen",
+          "lastName": "Kulas",
+          "email": "Helene_Sauer89@yahoo.com"
+        }
+      },
+      {
+        "id": "ckfoeh8wq0h11hl104y3pgupn",
+        "title": "copying",
+        "author": {
+          "firstName": "Colleen",
+          "lastName": "Kulas",
+          "email": "Helene_Sauer89@yahoo.com"
+        }
+      },
+      {
+        "id": "ckfoeh8wq0h12hl101sr3rrqa",
+        "title": "Bedfordshire Bahamas",
+        "author": {
+          "firstName": "Colleen",
+          "lastName": "Kulas",
+          "email": "Helene_Sauer89@yahoo.com"
+        }
+      },
+      {
+        "id": "ckfoeh8wq0h13hl10redigcxk",
+        "title": "Response discrete open-source",
+        "author": {
+          "firstName": "Wendy",
+          "lastName": "Legros",
+          "email": "Raphaelle.Medhurst55@gmail.com"
+        }
+      },
+      {
+        "id": "ckfoeh8wq0h14hl107abt45bg",
+        "title": "Row",
+        "author": {
+          "firstName": "Colleen",
+          "lastName": "Kulas",
+          "email": "Helene_Sauer89@yahoo.com"
+        }
+      },
+      {
+        "id": "ckfoeh8wq0h15hl10hz6wf0x9",
+        "title": "Industrial hard drive Wooden",
+        "author": {
+          "firstName": "Jarod",
+          "lastName": "Pouros",
+          "email": "Yessenia.Deckow8@hotmail.com"
+        }
+      },
+      {
+        "id": "ckfoeh8wq0h16hl1026gbv672",
+        "title": "moderator",
+        "author": {
+          "firstName": "Jarod",
+          "lastName": "Pouros",
+          "email": "Yessenia.Deckow8@hotmail.com"
+        }
+      },
+      {
+        "id": "ckfoeh8wq0h17hl10uv9nj6q0",
+        "title": "infrastructures magnetic",
+        "author": {
+          "firstName": "Colleen",
+          "lastName": "Kulas",
+          "email": "Helene_Sauer89@yahoo.com"
+        }
+      },
+      {
+        "id": "ckfoeh8wq0h18hl10ptvxho1i",
+        "title": "Avon Concrete Drive",
+        "author": {
+          "firstName": "Wendy",
+          "lastName": "Legros",
+          "email": "Raphaelle.Medhurst55@gmail.com"
+        }
+      },
+      {
+        "id": "ckfoeh8wq0h19hl10vzapkt8h",
+        "title": "streamline",
+        "author": {
+          "firstName": "Colleen",
+          "lastName": "Kulas",
+          "email": "Helene_Sauer89@yahoo.com"
+        }
+      },
+      {
+        "id": "ckfoeh8wv0h1ahl10pwc21sa0",
+        "title": "Assurance Rustic",
+        "author": {
+          "firstName": "Colleen",
+          "lastName": "Kulas",
+          "email": "Helene_Sauer89@yahoo.com"
+        }
+      },
+      {
+        "id": "ckfoeh8wv0h1bhl10w1qcj9jd",
+        "title": "Dynamic",
+        "author": {
+          "firstName": "Jarod",
+          "lastName": "Pouros",
+          "email": "Yessenia.Deckow8@hotmail.com"
+        }
+      },
+      {
+        "id": "ckfoeh8wv0h1chl10wf3v6t5p",
+        "title": "Centers Credit Card Account",
+        "author": {
+          "firstName": "Colleen",
+          "lastName": "Kulas",
+          "email": "Helene_Sauer89@yahoo.com"
+        }
+      },
+      {
+        "id": "ckfoeh8wv0h1dhl10qbc31hqr",
+        "title": "content-based navigate",
+        "author": {
+          "firstName": "Wendy",
+          "lastName": "Legros",
+          "email": "Raphaelle.Medhurst55@gmail.com"
+        }
+      },
+      {
+        "id": "ckfoeh8wv0h1ehl1025vikm7k",
+        "title": "Gorgeous matrix Regional",
+        "author": {
+          "firstName": "Colleen",
+          "lastName": "Kulas",
+          "email": "Helene_Sauer89@yahoo.com"
+        }
+      },
+      {
+        "id": "ckfoeh8wv0h1fhl102p2prezm",
+        "title": "ROI compress",
+        "author": {
+          "firstName": "Jarod",
+          "lastName": "Pouros",
+          "email": "Yessenia.Deckow8@hotmail.com"
+        }
+      },
+      {
+        "id": "ckfoeh8wv0h1ghl103kiovlk2",
+        "title": "Rubber out-of-the-box",
+        "author": {
+          "firstName": "Colleen",
+          "lastName": "Kulas",
+          "email": "Helene_Sauer89@yahoo.com"
+        }
+      },
+      {
+        "id": "ckfoeh8ww0h1hhl10e0ofh2wh",
+        "title": "withdrawal withdrawal Rustic Soft Bike",
+        "author": {
+          "firstName": "Wendy",
+          "lastName": "Legros",
+          "email": "Raphaelle.Medhurst55@gmail.com"
+        }
+      },
+      {
+        "id": "ckfoeh8ww0h1ihl10hfr3rp1j",
+        "title": "Dam",
+        "author": {
+          "firstName": "Jarod",
+          "lastName": "Pouros",
+          "email": "Yessenia.Deckow8@hotmail.com"
+        }
+      },
+      {
+        "id": "ckfoeh8ww0h1jhl10wo4xa3j4",
+        "title": "streamline",
+        "author": {
+          "firstName": "Colleen",
+          "lastName": "Kulas",
+          "email": "Helene_Sauer89@yahoo.com"
+        }
+      },
+      {
+        "id": "ckfoeh8ww0h1khl10d0z05xdp",
+        "title": "motivating",
+        "author": {
+          "firstName": "Wendy",
+          "lastName": "Legros",
+          "email": "Raphaelle.Medhurst55@gmail.com"
+        }
+      },
+      {
+        "id": "ckfoeh8ww0h1lhl10waj1dczh",
+        "title": "generating",
+        "author": {
+          "firstName": "Wendy",
+          "lastName": "Legros",
+          "email": "Raphaelle.Medhurst55@gmail.com"
+        }
+      },
+      {
+        "id": "ckfoeh8ww0h1mhl100oiogu4j",
+        "title": "Dynamic",
+        "author": {
+          "firstName": "Wendy",
+          "lastName": "Legros",
+          "email": "Raphaelle.Medhurst55@gmail.com"
+        }
+      },
+      {
+        "id": "ckfoeh8ww0h1nhl10491gk9ir",
+        "title": "Western Sahara B2C",
+        "author": {
+          "firstName": "Jarod",
+          "lastName": "Pouros",
+          "email": "Yessenia.Deckow8@hotmail.com"
+        }
+      },
+      {
+        "id": "ckfoeh8ww0h1ohl10f1yu952z",
+        "title": "Mission Dynamic Assistant",
+        "author": {
+          "firstName": "Wendy",
+          "lastName": "Legros",
+          "email": "Raphaelle.Medhurst55@gmail.com"
+        }
+      },
+      {
+        "id": "ckfoeh8ww0h1phl106j4u7r4u",
+        "title": "Communications",
+        "author": {
+          "firstName": "Wendy",
+          "lastName": "Legros",
+          "email": "Raphaelle.Medhurst55@gmail.com"
+        }
+      },
+      {
+        "id": "ckfoeh8ww0h1qhl10rmwt2vau",
+        "title": "quantify",
+        "author": {
+          "firstName": "Wendy",
+          "lastName": "Legros",
+          "email": "Raphaelle.Medhurst55@gmail.com"
+        }
+      },
+      {
+        "id": "ckfoeh8ww0h1rhl1045u8dnkk",
+        "title": "Technician transmitter bandwidth",
+        "author": {
+          "firstName": "Wendy",
+          "lastName": "Legros",
+          "email": "Raphaelle.Medhurst55@gmail.com"
+        }
+      },
+      {
+        "id": "ckfoeh8wx0h1shl10ytdtrk6z",
+        "title": "XML radical transitional",
+        "author": {
+          "firstName": "Wendy",
+          "lastName": "Legros",
+          "email": "Raphaelle.Medhurst55@gmail.com"
+        }
+      },
+      {
+        "id": "ckfoeh8wx0h1thl10rjuajex1",
+        "title": "bottom-line Gorgeous Soft Salad",
+        "author": {
+          "firstName": "Wendy",
+          "lastName": "Legros",
+          "email": "Raphaelle.Medhurst55@gmail.com"
+        }
+      },
+      {
+        "id": "ckfoeh8wx0h1uhl10ohnoyr19",
+        "title": "integrated innovative",
+        "author": {
+          "firstName": "Jarod",
+          "lastName": "Pouros",
+          "email": "Yessenia.Deckow8@hotmail.com"
+        }
+      },
+      {
+        "id": "ckfoeh8wx0h1vhl1068ql03vz",
+        "title": "Plastic Awesome synergies",
+        "author": {
+          "firstName": "Jarod",
+          "lastName": "Pouros",
+          "email": "Yessenia.Deckow8@hotmail.com"
+        }
+      },
+      {
+        "id": "ckfoeh8wx0h1whl10ag6prnfo",
+        "title": "reboot",
+        "author": {
+          "firstName": "Wendy",
+          "lastName": "Legros",
+          "email": "Raphaelle.Medhurst55@gmail.com"
+        }
+      }
+]
+
 const UserType = new GraphQLObjectType({
     name: 'User',
     fields: () => ({
@@ -169,6 +622,20 @@ const UserType = new GraphQLObjectType({
     })
 });
 
+const PostType = new GraphQLObjectType({
+    name: 'Post',
+    fields: () => ({
+        id: { type: GraphQLString },
+        title: { type: GraphQLString },
+        author: {
+            type: UserType,
+            resolve(parent, args){
+                return users.find(user => user.email == parent.author.email);
+            }
+        }
+    })
+})
+
 const RootQuery = new GraphQLObjectType({
     name: 'RootQueryType',
     fields: {
@@ -177,6 +644,13 @@ const RootQuery = new GraphQLObjectType({
             args: {id: {type: GraphQLString}},
             resolve(parent, args){
                 return users.find(user => user.id == args.id)
+            }
+        },
+        post: {
+            type: PostType,
+            args: {id: {type: GraphQLString}},
+            resolve(parent, args){
+                return posts.find(post => post.id == args.id)
             }
         }
     }
