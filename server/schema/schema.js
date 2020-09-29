@@ -611,7 +611,7 @@ let posts = [
           "email": "Raphaelle.Medhurst55@gmail.com"
         }
       }
-]
+];
 
 const UserType = new GraphQLObjectType({
     name: 'User',
@@ -641,7 +641,7 @@ const PostType = new GraphQLObjectType({
             }
         }
     })
-})
+});
 
 const RootQuery = new GraphQLObjectType({
     name: 'RootQueryType',
@@ -658,6 +658,12 @@ const RootQuery = new GraphQLObjectType({
             args: {id: {type: GraphQLString}},
             resolve(parent, args){
                 return posts.find(post => post.id == args.id)
+            }
+        },
+        posts: {
+            type: new GraphQLList(PostType),
+            resolve(parent, args){
+                return posts
             }
         }
     }
