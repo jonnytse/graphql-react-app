@@ -9,6 +9,7 @@ import Posts from '../../components/Posts';
 //apollo client setup
 const client = new ApolloClient({
   uri: 'http://localhost:5000/graphql'
+  // uri: 'https://fakerql.com/graphql'
 })
 
 class App extends Component {
