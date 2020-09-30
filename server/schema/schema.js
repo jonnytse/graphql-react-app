@@ -613,6 +613,8 @@ let posts = [
       }
 ];
 
+
+//***** Defining Object Types
 const UserType = new GraphQLObjectType({
     name: 'User',
     fields: () => ({
@@ -643,6 +645,8 @@ const PostType = new GraphQLObjectType({
     })
 });
 
+
+//***** Creating the RootQuery
 const RootQuery = new GraphQLObjectType({
     name: 'RootQueryType',
     fields: {
@@ -660,16 +664,16 @@ const RootQuery = new GraphQLObjectType({
                 return posts.find(post => post.id == args.id)
             }
         },
-        posts: {
-            type: new GraphQLList(PostType),
-            resolve(parent, args){
-                return posts
-            }
-        },
         users: {
             type: new GraphQLList(UserType),
             resolve(parent, args){
                 return users
+            }
+        },
+        posts: {
+            type: new GraphQLList(PostType),
+            resolve(parent, args){
+                return posts
             }
         }
     }
