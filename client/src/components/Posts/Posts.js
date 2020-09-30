@@ -5,7 +5,7 @@ import { graphql } from 'react-apollo';
 
 const getPostsQuery = gql`
     {
-        posts{
+        allPosts{
             title
             id
         }
@@ -13,13 +13,25 @@ const getPostsQuery = gql`
 `
 
 class Posts extends Component {
+    displayPosts(){
+        let data = this.props.data;
+        if(data.loading){
+            return(<div>Loading posts...</div>);
+        } else {
+            return data.allPosts.map(post => {
+                return(
+                    <li key={post.id}>{post.title}</li>
+                );
+            })
+        }
+    }
     render() {
         console.log(this.props);
         return (
             <div className={styles.posts}>
                 <h2>H2 header within the 'Posts' Component</h2>
                 <ul>
-                    <li>Post name</li>
+                    <li>{ this.displayPosts() }</li>
                 </ul>
             </div>
         )
