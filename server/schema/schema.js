@@ -665,6 +665,12 @@ const RootQuery = new GraphQLObjectType({
             resolve(parent, args){
                 return posts
             }
+        },
+        users: {
+            type: new GraphQLList(UserType),
+            resolve(parent, args){
+                return users
+            }
         }
     }
 });
