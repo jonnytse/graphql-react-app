@@ -45,3 +45,6 @@ class Users extends Component {
 }
 
 export default graphql(getUsersQuery)(Users);
+
+
+
