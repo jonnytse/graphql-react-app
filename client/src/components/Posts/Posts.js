@@ -29,7 +29,7 @@ class Posts extends Component {
         console.log(this.props);
         return (
             <div className={styles.posts}>
-                <h2>H2 header within the 'Posts' Component</h2>
+                <h2>Post Titles</h2>
                 <ul>
                     <li>{ this.displayPosts() }</li>
                 </ul>
