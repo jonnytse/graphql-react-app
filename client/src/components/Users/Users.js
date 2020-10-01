@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import styles from './Users.modules.scss';
 import { gql } from 'apollo-boost';
 import { graphql } from 'react-apollo';
 
@@ -26,6 +25,7 @@ class Users extends Component {
                         <li>Name: {user.firstName} {user.lastName}</li>
                         <li>ID: {user.id}</li>
                         <li>Email: {user.email}</li>
+                        <li></li>
                     </ul>
                 );
             })
@@ -34,7 +34,7 @@ class Users extends Component {
     render() {
         console.log(this.props);
         return (
-            <div className={styles.users}>
+            <div>
                 <h2>Users</h2>
                 <ul>
                     <li>{ this.displayUsers() }</li>

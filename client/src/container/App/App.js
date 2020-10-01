@@ -6,6 +6,7 @@ import { ApolloProvider } from 'react-apollo';
 //components to import and nest in root component aka App.js
 import Posts from '../../components/Posts';
 import Users from '../../components/Users';
+import Post from '../../components/Post';
 
 //apollo client setup
 const client = new ApolloClient({
@@ -20,6 +21,7 @@ class App extends Component {
           <h1>React-GraphQL App</h1>
           <Posts />
           <Users />
+          <Post />
         </div>
       </ApolloProvider>
     );

@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import styles from './Posts.modules.scss';
 import { gql } from 'apollo-boost';
 import { graphql } from 'react-apollo';
 
@@ -28,7 +27,7 @@ class Posts extends Component {
     render() {
         console.log(this.props);
         return (
-            <div className={styles.posts}>
+            <div>
                 <h2>Post Titles</h2>
                 <ul>
                     <li>{ this.displayPosts() }</li>
