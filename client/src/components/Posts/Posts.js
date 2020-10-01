@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import styles from './Posts.modules.scss';
-import { gql} from 'apollo-boost';
+import { gql } from 'apollo-boost';
 import { graphql } from 'react-apollo';
 
 const getPostsQuery = gql`
