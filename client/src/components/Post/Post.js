@@ -12,6 +12,10 @@ const getPostQuery = gql`
                 lastName
                 id
                 email
+                posts{
+                    title
+                    id
+                }
             }
         }
     }
@@ -29,15 +33,22 @@ class Post extends Component {
                     <li>ID: {data.Post.id}</li>
                     <li>Author: {data.Post.author.firstName} {data.Post.author.lastName}</li>
                     <li>Email: {data.Post.author.email}</li>
+                    <li></li>
+                    <li>OTHER POSTS by {data.Post.author.firstName} {data.Post.author.lastName}:</li> 
+                        {data.Post.author.posts.map(post => {
+                        return (
+                            <li key={post.id}>{post.title}</li>
+                        );
+                    })}
                 </ul>
-            );
+            )
         }
     }
     render() {
         console.log(this.props);
         return (
             <div>
-                <h2>Individual Post and associated author</h2>
+                <h2>Individual Post, associated author and associated posts</h2>
                 <ul>
                     <li>{ this.displayPost() }</li>
                 </ul>
